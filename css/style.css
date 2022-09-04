@@ -1,10 +1,52 @@
 body
 {
     font-family: Georgia!important;
+    top: 0 !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
 }
 .header
 {
     background: url(../img/headerbg.jpg) no-repeat;
     background-size: cover;
     color: white;
+}
+.footer
+{
+    background: url(../img/footerbg.jpg) no-repeat;
+    background-size: cover;
+}
+/* Translator */
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+    font-size: 15px;
+    font-family: Georgia;
+    background-color: transparent;
+    border: transparent;
+    padding-top: 0.38rem;
+    color: white !important;
+    cursor: pointer;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
 }
