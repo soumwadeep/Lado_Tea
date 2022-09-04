@@ -1,4 +1,10 @@
 body
 {
-    font-family: Georgia;;
+    font-family: Georgia!important;
+}
+.header
+{
+    background: url(../img/headerbg.jpg) no-repeat;
+    background-size: cover;
+    color: white;
 }
